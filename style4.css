@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(./image/facial2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden !important;
+
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.724);
+    width: 100%;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.264);
+    max-height: 21rem;
+    height: 100vh;
+    width: 100%;
+    max-width: 28rem;
+    margin: 0 1rem;
+    padding: .9rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    overflow-y: scroll;
+    box-shadow: 0 .4rem .7rem rgb(75, 73, 73);
+}
+
+
+.login-box img {
+    width: 15rem;
+}
+
+body .login-box input {
+    border: .1rem solid rgb(149, 146, 146);
+    width: 100%;
+    outline: none;
+    border-left: none;
+    padding: .4rem .4rem;
+}
+
+.login-box .fonts {
+    background-color: rgb(182, 173, 173);
+}
+
+.create {
+    padding: .4rem .3rem;
+    /* color: white; */
+    border: .1rem solid rgb(149, 146, 146);
+    border-right: none;
+}
+
+.login {
+    background-color: rgb(212, 35, 124);
+    width: 80%;
+    margin: .5rem auto;
+    padding: .5rem;
+    box-shadow: .3rem .2rem .4rem rgb(132, 130, 130);
+    border-radius: .9rem;
+}
+.c-p{
+    cursor: pointer;
+}
+
+.fb {
+    background-color: rgb(30, 30, 106);
+    padding: .7rem;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow: .3rem .2rem .4rem rgb(132, 130, 130);
+}
+
+
+.gle {
+    background-color: red;
+    padding: .7rem;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow: .3rem .2rem .4rem rgb(132, 130, 130);
+
+}
+.twt{
+    box-shadow: .3rem .2rem .4rem rgb(132, 130, 130);
+    background-color: rgb(55, 55, 188);
+    padding: .7rem;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1rem;
+}

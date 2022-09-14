@@ -1,0 +1,59 @@
+body {
+    background: url(./image/facial4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.dark {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.549);
+    backdrop-filter: blur(10px);
+}
+
+.text-hp {
+    color: rgb(212, 35, 124);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.create-box {
+    background-color: rgba(255, 255, 255, 0.324);
+    padding: .8rem;
+    width: 100%;
+    max-width: 30rem;
+    margin: 0 10px;
+    border-radius: 1rem;
+    max-height: 100vh;
+    overflow-y: scroll;
+   
+}
+
+.create-box .input {
+    width: 100%;
+    padding: .3rem .8rem;
+    margin-bottom: .7rem;
+}
+
+.create {
+    background-color: rgb(212, 35, 124);
+    padding: .5rem;
+    border-radius: 1rem;
+    width: 80%;
+    margin: auto;
+}
+
+.agree {
+    font-size: 1rem;
+}
+
+.c-p {
+    cursor: pointer;
+}

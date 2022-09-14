@@ -1,0 +1,383 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: rgb(212, 35, 124);
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  padding: 0 2%;
+  z-index: 4;
+  box-shadow: 0 0 10px;
+}
+
+.navlinks {
+  padding: 10px 20px;
+}
+
+.navlinks:hover {
+  border-bottom: 4px ridge black;
+}
+
+.navlinks:active {
+  border-bottom: 4px ridge black;
+}
+
+.navlink {
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.bars {
+  display: none;
+}
+
+.mobile-nav {
+  position: absolute;
+  background-color: rgb(212, 35, 124);
+  z-index: 100;
+  width: 0;
+  transition: all ease 500ms;
+  right: 0;
+  display: none;
+  top: 0;
+  overflow: hidden;
+  height: 100vh;
+  box-shadow: 1px 2px 3px;
+}
+
+.allin {
+  text-align: right;
+  width: 100%;
+}
+
+.navm {
+  padding: 10px 20px 10px 120px;
+  /* width: 100%; */
+}
+
+.navm:hover {
+  background-color: rgba(0, 0, 0, 0.61);
+  color: white;
+}
+
+.banner {
+  background-image: url(./image/hingham-hair-salon-insurance.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+
+.dark {
+  height: 450px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.704);
+}
+
+.textbox {
+  padding-top: 160px;
+}
+
+.text-banner {
+  color: white;
+  font-weight: bolder;
+  font-size: 70px;
+  animation: colorme 1s linear infinite;
+}
+
+.text-hp {
+  color: rgb(212, 35, 124);
+}
+
+.about video {
+  height: 400px;
+  width: 100%;
+}
+
+.read-more {
+  background-color: rgb(212, 35, 124);
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: all ease 500ms;
+}
+
+.read-more:hover {
+  background-color: rgb(196, 69, 133);
+  cursor: pointer;
+}
+
+.main {
+  background-image: url(./image/salon-insurance-header.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.pink {
+  background-color: rgba(212, 35, 123, 0.405);
+  width: 100%;
+}
+
+.advantage-box {
+  width: 100%;
+  padding: 5px 5px 0 5px;
+  background-color: white;
+  margin-bottom: 10px;
+  box-shadow: 0 10px 15px rgb(157, 156, 156);
+}
+
+.imgbox {
+  width: 100%;
+  overflow: hidden;
+}
+
+.imgbox img {
+  width: 100%;
+  height: 250px;
+}
+
+.text-advantage {
+  font-size: 5ch;
+  padding: 10px 0;
+
+}
+.icons{
+  background-color: white;
+  padding: 2px;
+  border-radius: 50%;
+  color: rgb(212, 35, 124);
+  font-weight: bolder;
+  box-shadow: 0 2px 10px white;
+}
+.style-ad{
+  /* background-color: red; */
+  position: relative;
+  padding-bottom: .6rem;
+}
+.style-ad::before{
+  content: '';
+position: absolute;
+width: 100px;
+height: 6px;
+background-color: #fff;
+bottom: 0;
+left: 34%;
+border-radius: 20px;
+}
+.style-ad::after{
+  content: '';
+position: absolute;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: #fff;
+bottom: -7px;
+left: 47%;
+}
+@keyframes colorme {
+  0% {
+    color: white;
+    padding-top: 10px;
+  }
+
+  25% {
+    color: rgb(212, 35, 124);
+  }
+
+  50% {
+    color: orangered;
+  }
+
+  75% {
+    color: green;
+  }
+
+  100% {
+    padding-top: 0;
+    color: red;
+  }
+}
+
+.readmore {
+  background-color: rgb(212, 35, 124);
+  padding: 4px 6px;
+  margin-bottom: 20px;
+
+}
+.bg-hotpink{
+  background-color: rgb(212, 35, 124);
+}
+
+.teambox {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  /* padding: 0 10px 10px 10px; */
+  text-align: center;
+  box-shadow: 0 6px 10px rgb(210, 208, 208);
+  margin-bottom: 15px;
+}
+.view-more{
+  width: 100px;
+  padding: 5px 0;
+  margin: 0 auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.team-img {
+  background-color: rgb(212, 35, 124);
+  width: 100%;
+  border-bottom-left-radius: 20px;
+}
+
+.team-img img {
+  width: 50%;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px white solid;
+}
+.reviews-box{
+  width: 100%;
+  /* height: 200px; */
+  background-color: rgb(212, 35, 124);
+  position: relative;
+  border-radius: 100px;
+  z-index: 2;
+  padding-bottom: 27px;
+  margin-bottom: 35px;
+  transition: all ease 300ms;
+
+}
+
+.reviews-box:hover{
+  transform: translateY(-5px);
+}
+.reviews-box::before{
+  content: '';
+  position: absolute;
+  border-width: 32px;
+  border-style: solid;
+  border-color: transparent transparent transparent rgb(212, 35, 124);
+  left: 45%;
+  bottom: -30px;
+  
+}
+.reviewsimg{
+  /* background-color: white; */
+  z-index: 1 !important ;
+}
+.reviewsimg img{
+width: 70px;
+height: 70px;
+border-radius: 50%;
+border: 4px white solid;
+
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.903);
+  padding: 20px 10px 5px 10px;
+  overflow-x: hidden;
+}
+
+.footer-links {
+  transition: all ease 200ms;
+  cursor: pointer;
+}
+
+.footer-links:hover {
+  padding-left: 5px;
+}
+
+footer button {
+  outline: none !important;
+  border: none;
+  padding: 0 10px;
+  border-radius: 0 10px 10px 0;
+  color: white;
+  height: 40px;
+}
+
+footer input {
+  outline: none !important;
+  border: none;
+  padding: 0 10px;
+  border-radius: 10px 0 0 10px;
+}
+
+.allright {
+  color: rgb(166, 158, 158);
+}
+.branch-part img{
+  width: 100%;
+  height: 27rem;
+  border-radius: 1rem;
+ 
+}
+.branch-part{
+   position: relative;
+   margin-bottom: 1rem;
+}
+.cover{
+  position: absolute;
+  width: 100%;
+  height: 27rem;
+  top: 0;
+  transition: all ease 500ms;
+  border-radius: 1rem;
+}
+.cover:hover{
+  background-color: rgba(212, 35, 123, 0.682);
+}
+.cover h1{
+  font-size: 2.56rem;
+  width: 100%;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 500ms ;
+}
+.cover:hover h1{
+  opacity: 1;
+  bottom: 50%;
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  .bars {
+    display: block;
+  }
+
+  .navm {
+    display: block;
+  }
+
+  .navb {
+    display: none;
+  }
+
+  .text-advantage {
+    font-size: 4ch;
+  }
+  .teambox {
+    width: 70%;
+    
+  }
+  .mobile-nav {
+    
+    display: block;
+  }
+}
